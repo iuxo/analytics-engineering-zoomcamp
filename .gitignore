@@ -14,8 +14,4 @@ wheels/
 target/
 dbt_packages/
 logs/
-<<<<<<< HEAD
-=======
-*.csv
->>>>>>> 19d253cd27e99efa847424b070cd03f8bcfd4b69
 # end dbt Cloud content
