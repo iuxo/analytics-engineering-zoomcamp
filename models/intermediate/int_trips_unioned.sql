@@ -12,4 +12,4 @@ trips_unioned as (
     select * From yellow_tripdata
 )
 
-select * from trips_unioned
+select distinct pickup_location_id from trips_unioned

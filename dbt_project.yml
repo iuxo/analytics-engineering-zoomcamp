@@ -37,6 +37,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   taxi_rides_ny:
-    # Applies to all files under models/example/
-    example:
+    staging:
+      +materialized: view
+    intermediate:
       +materialized: table
+    marts:
+      +materialized: table
+flags:
+  require_generic_test_arguments_property: true
