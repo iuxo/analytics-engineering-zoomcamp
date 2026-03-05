@@ -41,3 +41,13 @@ Prioritse user undertandability and query performance over non redundant data (3
 * Transformation workflow to use SQL or python to deploy analytics code following best practices like modularity, portability, CI/CD, and documentation
 * open source that allows the data transformation
 * builds and runs a dbt project
+
+## Types of Materializations
+1. Ephemeral
+Temporary
+2. View
+Virtual tables that can be queried
+3. Table
+Physical representations of data stored and created in db
+4. Incremental
+powerful feature of dbt that allows for efficient updates to existing tables, reducing ened for full data refreshes
